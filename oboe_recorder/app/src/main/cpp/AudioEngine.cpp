@@ -1,9 +1,7 @@
-
 #include <oboe/Oboe.h>
+#include <cassert>
 #include "AudioEngine.h"
 #include "logging_macros.h"
-
-
 
 AudioEngine::AudioEngine() {
     assert(mOutputChannelCount == mInputChannelCount);
